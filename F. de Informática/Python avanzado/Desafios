@@ -1,0 +1,25 @@
+>>> texto = 'Esta es la linea uno\npalabra en la linea dos\n'
+>>> texto
+'Esta es la linea uno\npalabra en la linea dos\n'
+>>> print(texto)
+Esta es la linea uno
+palabra en la linea dos
+
+#Desafio I:
+\d{4,}
+
+#Desafio II:
+[a-z]{3,6}
+
+#Desafio III:
+ab*
+
+#Desafío IV:
+texto = 'En la clase de Introducción a la programación hay 30 estudiantes' 
+/d+
+
+#Desafío V:
+>>> import re
+>>> texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet et amet."
+>>> patron = "amet"
+>>> re.search(patron, texto)
