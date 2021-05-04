@@ -1,1 +1,2 @@
-from aves import pepita
+from aves import *
+from entrenamiento import *
