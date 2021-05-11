@@ -1,0 +1,29 @@
+Lenguajes Web:
+    - JavaScript, dinamiza la página
+    - CSS, le da el estilo
+    - HTML, le da la estructura
+Cloud Computing: consumo o prestación bajo demanda de recursos tecnológicos a través de internet.
+
+----------------------------------------------------------------------------------------------
+
+r.json() nos da un diccionario con todo lo que se encuentra en el servidor
+
+r.headers nos da la informaci[on de ese servidor, como connection, expires, date, etc., toda la METADATA
+
+r.status_code nos da el estado del servidor
+
+r.content es muy parecido a r.headers, pero a difernecia de header es que muestra el CONTENIDO, lo que devuelve
+depende de lo que estas consultando (preguntar diferencias, una es que muetsra los metacaracteres)
+
+?...=... nos sirve para buscar cierto tipo de dato en el servidor y as[i no ver toda la lista de objetos en el.
+
+& nos permite darle mas de un parametro a la busqueda dentro del servidor.
+
+Una URL es cualquier string con un formato particular llamado URI nos permita localizar un recurso, por ejemplo en internet.
+Las URIs se componente de:
+    - un protocolo
+    - un dominio
+opcionalmente, un puerto
+una ruta
+opcionalmente, parámetros
+opcionalmente, un fragmento, que indica en que sección queremos obtener del recurso que estamos consultando.
