@@ -64,3 +64,34 @@ anastasia = Golondrina(200)
 roberta = Dragon(10, 1000)
 maria = Golondrina(42)
 chimuelo = Dragon(200, 1000)
+
+
+class Gorrion:
+    def __init__(self, kms=0, gramos=0):
+        self.comidas = []
+        self.vuelos = []
+        self.kms = kms
+        self.gramos = gramos
+
+    def volar(self, longitud):
+        self.vuelos.append(longitud)
+        self.kms += longitud
+    
+    def comer(self, ingerido):
+        self.comidas.append(ingerido)
+        self.gramos += ingerido
+    
+    def CSS(self):
+        return self.kms/self.gramos
+    
+    def CSSV(self):
+        return (int(max(self.vuelos)) / int(max(self.comidas)))
+    
+    def CSSP(self):
+        if self.gramos <= 0:
+            return None
+        else:
+            return (int(max(self.vuelos)) / int(max(self.comidas)))
+    
+    def equilibrio(self):
+        return 2 < self.CSS() > 0.5
